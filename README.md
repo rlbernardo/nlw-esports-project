@@ -2,7 +2,7 @@
 
 ## 🖥 Preview
 <p align = "center">
-  <img src = "xxx" width = "702" height = "auto">
+  <img src = "https://github.com/rlbernardo/nlw-esports-project/blob/main/assets/print.png?raw=true" width = "702" height = "auto">
 </p>
 
 ## 📖 About
