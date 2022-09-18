@@ -14,6 +14,7 @@ body {
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-color: #121214;
+    
 }
 
 body * {
@@ -21,9 +22,30 @@ body * {
     line-height: 160%;
 }
 
+header {
+    padding-top: 32px;
+
+}
+header div a{
+    width: 120px;
+    margin: auto;
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    border-radius: 50%;
+    display: flex;
+    padding: 4px;
+    transition: transform .3s;
+}
+header div a:hover {
+    transform: scale(1.1)
+}
+header img {
+    width: 100%;
+    border-radius: 50%;
+    
+}
+
 main {
-    max-width: 580%;
-    width: 90%;
+    max-width: 80%;
     margin: auto;
 
     display: grid;
@@ -65,8 +87,17 @@ section ul {
     flex-wrap: wrap;
 
 }
+
+section ul li {
+    transition: transform .3s;
+}
+
+section ul li:hover {
+    transform:scale(1.1);
+}
+
 .games-list img{
-    width: 90px;
+    width: 150px;
     border-radius: 8px;
 }
 
@@ -75,6 +106,10 @@ section ul {
     width: 70%;
 }
 
+.social-list {
+    width: 60%;
+
+}
 .social-list img{   
-    width: 20%;
+    width: 50px;
 }
