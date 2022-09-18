@@ -24,6 +24,7 @@ body * {
 
 header {
     padding-top: 32px;
+    height: calc(120px+32px);
 
 }
 header div a{
@@ -112,4 +113,38 @@ section ul li:hover {
 }
 .social-list img{   
     width: 50px;
+}
+
+/* ANIMAÇÃO */
+header div a{
+    animation:fromtop .7s 5s backwards;
+    animation-delay: 1s;
+}
+main section {
+    animation: fromBottom .7s;
+}
+@keyframes fromtop {
+    from {
+        opacity:0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity:1;
+        transform: translateY(0);
+    }
+    
+}
+
+@keyframes fromBottom {
+    from {
+        opacity:0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity:1;
+        transform: translateY(0);
+    }
+    
 }
